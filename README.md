@@ -24,20 +24,6 @@ autocare/
     └── menu.go              → Semua handler menu interaktif
 ```
 
-## Cara Menjalankan
-
-```bash
-# Masuk ke folder proyek
-cd autocare
-
-# Jalankan program
-go run main.go
-
-# Atau build terlebih dahulu lalu jalankan
-go build -o autocare
-./autocare
-```
-
 ## Fitur Aplikasi
 
 | No | Fitur | Keterangan |
@@ -70,9 +56,3 @@ go build -o autocare
 - Mirip cara mengurutkan kartu remi
 - Digunakan untuk mengurutkan berdasarkan **tanggal servis terakhir**
 
-## Ketentuan Penulisan Kode
-
-- Variabel dideklarasikan dengan `var` (bukan `:=`)
-- Tidak menggunakan operator `+=`, `-=`, `*=`, `/=`
-- Operator `++` dan `--` tetap digunakan
-- Pengelompokan variabel menggunakan blok `var (...)`
